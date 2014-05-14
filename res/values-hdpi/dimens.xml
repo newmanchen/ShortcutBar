@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="shortcut_item_padding">8px</dimen>
+    <dimen name="bar_width">80px</dimen>
+    <dimen name="image_padding_left_right">8px</dimen>
+    <dimen name="image_width_height">64px</dimen>
+    <dimen name="footer_height">90px</dimen>
+    <dimen name="footer_button_margin_left_right">12px</dimen>
+    <dimen name="footer_button_margin_top_bottom">8px</dimen>
+    <dimen name="image_button_width">54px</dimen>
+    <dimen name="image_button_height">54px</dimen>
+    <dimen name="list_item_image_margin_top_bottom">0px</dimen>
+    <dimen name="list_item_padding_right">20px</dimen>
+    <dimen name="list_item_padding_left">12px</dimen>
+    <dimen name="changelog_padding_left_right">30dp</dimen>
+    <dimen name="changelog_padding_top">5dp</dimen>
+    <dimen name="changelog_padding_bottom">15dp</dimen>
+    <dimen name="dialog_confirm_text_padding">15dp</dimen>
+</resources>

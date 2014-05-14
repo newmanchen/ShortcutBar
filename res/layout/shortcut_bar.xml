@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shortcutBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|left">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="@dimen/bar_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:scrollbars="none" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<resources>
+
+    <string name="app_name">ShortcutBar</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_document">文件說明</string>
+    <string name="text_add_more">增加</string>
+    <string name="text_ok">確定</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_edit_shortcut_bar">編輯 Shortcut Bar</string>
+    <string name="text_start_to_use">開始使用</string>
+    <string name="text_guide">教學</string>
+    <string name="text_changelog">更新日誌</string>
+    <string name="text_title_confirm_leaving">確定離開</string>
+    <string name="text_confirm_leaving">剛剛所設定的在離開此頁面後會全部消失不見。確定要離開此頁面嗎？</string>
+    <string name="text_left_top">左上</string>
+    <string name="text_left_center">左中</string>
+    <string name="text_left_bottom">左下</string>
+    <string name="text_right_top">右上</string>
+    <string name="text_right_center">右中</string>
+    <string name="text_right_bottom">右下</string>
+    <string name="text_lockscreen">螢幕鎖</string>
+    <string name="text_title_confirm_deactivate">確定停用</string>
+    <string name="text_confirm_deactivate">會在裝置管理員中停用螢幕鎖。確定要停用嗎？</string>
+    <string name="device_admin_label">Shortcut Bar</string>
+    <string name="device_admin_description">ShorctBar 中的螢幕鎖 Shortcut</string>
+    <string name="text_wifi">無線網路</string>
+    <string name="text_home">首頁</string>
+    <string name="text_auto_rotate">自動旋轉螢幕</string>
+    
+    <string name="shortcut_bar_setting">Shortcut Bar 設定</string>
+    <string name="shortcut_bar_enable_disable_setting">Shortcut 顯示/隱藏設定</string>
+    
+    <string name="separator_text_general">一般</string>
+    <string name="title_enable_service">開啟此服務</string>
+  	<string name="summary_enable_service">開啟/關閉此服務</string>
+  	
+  	<string name="separator_text_shortcut_bar">Shortcut Bar 的設定</string>
+  	<string name="summary_edit_shortcut_order">變更(包含新增刪除) Shortcut 在 ShortcutBar 中顯示的順序</string>
+  	<string name="title_edit_shortcut_order">變更 Shortcut 的順序</string>
+  	<string name="summary_edit_enable_disable">變更隱藏/顯示 Home, 增加 Shortcut, 無線網路開關, ShortcutBar 設定</string>
+  	<string name="title_edit_enable_disable">變更隱藏/顯示的設定</string>
+  	<string name="summary_hide_home">在 ShortcutBar 中隱藏 Home Shortcut</string>
+  	<string name="title_hide_home">隱藏 Home Shortcut</string>
+  	<string name="summary_hide_setting_shortcut">在 ShortcutBar 中隱藏 ShortcutBar 的設定捷徑</string>
+  	<string name="title_hide_setting_shortcut">隱藏 ShortcutBar 設定的捷徑</string>
+  	<string name="summary_hide_add_more">在 ShortcutBar 中隱藏\'增加 Shortcut\'</string>
+  	<string name="title_hide_add_more">隱藏 \'增加 Shortcut\'</string>
+  	<string name="summary_hide_shortcut_text">把 Shortcut 底下的文字隱藏起來</string>
+  	<string name="title_hide_shortcut_text">隱藏 Shortcut 文字</string>
+  	<string name="summary_hide_lockscreen">在 ShortcutBar 中將螢幕鎖的隱藏</string>
+  	<string name="title_hide_lockscreen">隱藏螢幕鎖</string>
+  	<string name="summary_activate_lockscreen_admin">在裝置管理員中啟動螢幕鎖 (設定 > 安全性 > 裝置管理員)</string>
+  	<string name="title_activate_lockscreen_admin">啟動裝置管理員 - 螢幕鎖</string>
+  	<string name="summary_deactivate_lockscreen_admin">在裝置管理員中停用螢幕鎖 (設定 > 安全性 > 裝置管理員)</string>
+  	<string name="title_deactivate_lockscreen_admin">停用裝置管理員 - 螢幕鎖</string>
+  	<string name="summary_hide_wifi">在 ShortcutBar 中隱藏無線網路開關的 Shortcut</string>
+  	<string name="title_hide_wifi">隱藏無線網路開關</string>
+  	<string name="summary_hide_auto_rotate">在 ShortcutBar 中隱藏自動旋轉螢幕的 Shortcut</string>
+  	<string name="title_hide_auto_rotate">隱藏自動旋轉螢幕的 Shortcut</string>
+  	
+  	<string name="separator_text_shortcut_bar_appearance">Shorctcut Bar 的外觀</string>
+  	<string name="summary_default_opacity">66%</string>
+  	<string name="title_background_opacity">背景透明程度</string>
+  	<string name="summary_indicator_location">指定指標位置於左/右 x 上/中/下</string>
+  	<string name="title_indicator_location">指標位置</string>
+  	<string name="summary_shortcut_icon_size">變更 Shortcut 圖案的大小</string>
+  	<string name="title_shortcut_icon_size">Shortcut 的圖案大小</string>
+  	<string name="summary_background_color">變更背景顏色</string>
+  	<string name="title_background_color">背景顏色</string>
+  	
+  	<string name="separator_text_donate">捐贈</string>
+  	<string name="summary_donate_me">捐贈給作者, 謝謝！</string>
+  	<string name="title_donate_me">捐贈給作者</string>
+  		
+  	<string name="menu_feedback">回饋</string>
+  	<string name="menu_about">關於</string>
+  	<string name="menu_add">增加</string>
+
+  	<string name="about_summary">歡迎大家來信交流功能或是使用上的行為! 謝謝大家的使用!</string>
+  	<string name="about_version">版本:</string>
+  	<string name="about_name">陳信昌</string>
+  	<string name="about_mail">newman19841231\@gmail.com</string>
+  	
+  	<string name="text_introdution">介紹</string>
+  	<string name="app_introdution">這是一個促進大家存取其他程式方便且有效的一個小工具。試問大家有過在瀏覽網頁或是閱讀 PDF 時，如果遇到不熟悉的
+  	    單字片語，這時候也許就得先回到桌面，再點桌面上的查單字捷徑(如果有的話)，或者是要先進到安裝程式清單裡面點擊查單字程式，這樣的步驟顯的有些冗長。
+  	    現在，只需要設定一次，將查字典的捷徑設定到這個小工具上面，需要用時，壓住那個圖案且向右邊拖曳，即會顯示出捷徑條，讓你輕鬆地在不同程式中去使用
+  	    其他程式。以下是這小工具的特色。\n\n
+  	     + 開啟/關閉此服務 \n
+  	     + 隱藏/顯示 Shortcut 底下的文字 \n
+  	     + 變更 Shortcut 的順序 \n
+  	     + 改變背景的透明程度 \n
+  	     + 隱藏/顯示內建的 Shortcut \n
+  	     + 隱藏/顯示首頁，新增 Shortcut，螢幕鎖，Wifi 開關的 Shortcut</string>
+  	<string name="change_log_v_1_dot_0">第一次上架</string>
+  	<string name="change_log_v_1_dot_0_dot_1">+ Shortcut 圖案大小可調整 \n+ 可變更指標位置 \n
+  	    + 離開編輯模式時，會有確認對話框詢問是否離開 \n+ 調整外觀</string>
+   	<string name="change_log_v_1_dot_0_dot_2">+ 降低教學圖片檔案大小且減低 apk 檔案大小</string>
+   	<string name="change_log_v_1_dot_0_dot_3">+ 螢幕鎖 Shortcut 加入，讓你可以直接在 ShortcutBar 中關閉螢幕畫面
+       \n+ 新增/變更畫面讓使用者有更好的使用經驗\n+ 修改小問題</string>
+	<string name="change_log_v_1_dot_0_dot_4">+ Shortcut Bar 現在可以設定到右邊
+	    \n+ 更改指標的圖案且微調指標位置避免與系統標題列或分頁列重疊\n+ 增加過場動畫</string>
+    <string name="change_log_v_1_dot_1_dot_0">+ 支援 Froyo GingerBread 系統 !!!\n+ 新增回到首頁的 Shortcut
+   	    \n+ 新增 Wifi 開關\n+ 修改問題</string>
+	<string name="change_log_v_1_dot_1_dot_1">+ 可以改變 Shortcut Bar 的背景顏色 \n+ 選擇程式畫面可以搜尋
+   	    \n+ 設定畫面結構更新，顯示隱藏的設定都移到新的設定頁面\n+ 效能改善</string>
+	<string name="change_log_v_1_dot_2_dot_0">+ 加入廣告\n+ 在變更 Shortcut 順序中可以透過拖曳來改變順序
+	    \n+ 在新增 Shortcut 頁面搜尋英文不分大小寫</string>
+    <string name="change_log_v_1_dot_2_dot_1">+ 修改Phil Sabolbora回報的問題\n+ 新增快速設定 - 自動旋轉螢幕</string>
+</resources>

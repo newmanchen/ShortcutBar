@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/list_item_padding_left"
+    android:paddingRight="@dimen/list_item_padding_right" >
+
+    <ImageButton
+        android:id="@+id/remove_button"
+        android:layout_width="@dimen/image_button_width"
+        android:layout_height="@dimen/image_button_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/remove"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/appImage"
+        android:layout_width="@dimen/image_width_height"
+        android:layout_height="@dimen/image_width_height"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/list_item_image_margin_top_bottom"
+        android:layout_marginTop="@dimen/list_item_image_margin_top_bottom"
+        android:layout_toRightOf="@id/remove_button"
+        android:paddingLeft="@dimen/image_padding_left_right"
+        android:paddingRight="@dimen/image_padding_left_right" />
+
+    <ImageView
+        android:id="@+id/handle_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/drag" />
+
+    <TextView
+        android:id="@+id/appLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/handle_icon"
+        android:layout_toRightOf="@id/appImage" />
+
+</RelativeLayout>

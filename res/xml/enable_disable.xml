@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/separator_text_general" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hide_setting_shortcut_checkbox_preference"
+            android:summary="@string/summary_hide_setting_shortcut"
+            android:title="@string/title_hide_setting_shortcut" />
+        <CheckBoxPreference
+            android:key="hide_home_checkbox_preference"
+            android:summary="@string/summary_hide_home"
+            android:title="@string/title_hide_home" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hide_add_more_checkbox_preference"
+            android:summary="@string/summary_hide_add_more"
+            android:title="@string/title_hide_add_more" />
+        <CheckBoxPreference
+            android:key="hide_lockscreen_checkbox_preference"
+            android:summary="@string/summary_hide_lockscreen"
+            android:title="@string/title_hide_lockscreen" />
+        <Preference
+            android:defaultValue="false"
+            android:key="activate_deactivate_lockscreen_admin_checkbox_preference"
+            android:summary="@string/summary_activate_lockscreen_admin"
+            android:title="@string/title_activate_lockscreen_admin" />
+        <CheckBoxPreference
+            android:key="hide_wifi_checkbox_preference"
+            android:summary="@string/summary_hide_wifi"
+            android:title="@string/title_hide_wifi" />
+        <CheckBoxPreference
+            android:key="hide_auto_rotate_checkbox_preference"
+            android:summary="@string/summary_hide_auto_rotate"
+            android:title="@string/title_hide_auto_rotate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

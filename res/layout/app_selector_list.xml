@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/search_Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/list_item_padding_left"
+        android:layout_marginRight="@dimen/list_item_padding_right"
+        android:layout_marginTop="@dimen/list_item_image_margin_top_bottom"
+        android:layout_marginBottom="@dimen/list_item_image_margin_top_bottom" >
+        
+        <ImageView 
+            android:layout_width="@dimen/image_button_width"
+            android:layout_height="@dimen/image_button_height"
+            android:src="@drawable/search" />
+        
+        <EditText 
+            android:id="@+id/search_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/search_Bar"
+        android:background="@drawable/divider" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_dark"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/footer_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/footer_button_margin_left_right"
+            android:layout_marginRight="@dimen/footer_button_margin_left_right"
+            android:layout_marginTop="@dimen/footer_button_margin_top_bottom"
+            android:layout_marginBottom="@dimen/footer_button_margin_top_bottom"
+            android:text="@string/text_cancel"
+            style="@android:style/Widget.Button" />
+
+        <Button
+            android:id="@+id/footer_btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/footer_button_margin_left_right"
+            android:layout_marginTop="@dimen/footer_button_margin_top_bottom"
+            android:layout_marginBottom="@dimen/footer_button_margin_top_bottom"
+            android:text="@string/text_ok"
+            style="@android:style/Widget.Button" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/divider" />
+
+</RelativeLayout>

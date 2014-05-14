@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/separator_text_general" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_service_checkbox_preference"
+            android:summary="@string/summary_enable_service"
+            android:title="@string/title_enable_service" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/separator_text_shortcut_bar" >
+        <Preference
+            android:key="edit_shortcut_order"
+            android:summary="@string/summary_edit_shortcut_order"
+            android:title="@string/title_edit_shortcut_order" />
+        <Preference
+            android:key="edit_enable_disable"
+            android:summary="@string/summary_edit_enable_disable"
+            android:title="@string/title_edit_enable_disable" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="hide_shortcut_text_checkbox_preference"
+            android:summary="@string/summary_hide_shortcut_text"
+            android:title="@string/title_hide_shortcut_text" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/separator_text_shortcut_bar_appearance" >
+		<yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:defaultValue="0xff000000"
+            android:key="shorctut_background_color"
+            android:summary="@string/summary_background_color"
+            android:title="@string/title_background_color" />
+        <Preference
+            android:key="background_opacity"
+            android:summary="@string/summary_default_opacity"
+            android:title="@string/title_background_opacity" />
+        <Preference
+            android:key="background_location"
+            android:summary="@string/summary_indicator_location"
+            android:title="@string/title_indicator_location" />
+        <Preference
+            android:key="shorctut_icon_size"
+            android:summary="@string/summary_shortcut_icon_size"
+            android:title="@string/title_shortcut_icon_size" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/separator_text_donate" >
+        <Preference
+            android:key="donate_me"
+            android:summary="@string/summary_donate_me"
+            android:title="@string/title_donate_me" />
+	</PreferenceCategory>
+	
+</PreferenceScreen>

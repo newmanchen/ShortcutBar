@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/changelog_padding_bottom"
+	    android:paddingLeft="@dimen/changelog_padding_left_right"
+    	android:paddingRight="@dimen/changelog_padding_left_right"
+    	android:paddingTop="@dimen/changelog_padding_top" >
+
+        <include
+            android:id="@+id/introduction"
+            layout="@layout/changelog_item" />
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_two_dot_one"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_two_dot_zero"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_one_dot_one"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_one_dot_zero"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_zero_dot_four"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_zero_dot_three"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_zero_dot_two"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+
+        <include
+            android:id="@+id/v_one_dot_zero_dot_one"
+            layout="@layout/changelog_item" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/divider" />
+        
+        <include
+            android:id="@+id/v_one_dot_zero"
+            layout="@layout/changelog_item" />
+    </LinearLayout>
+
+</ScrollView>
